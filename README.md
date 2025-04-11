@@ -77,23 +77,6 @@ It includes:
 
 # 📦 Project Structure: Cancer Detection KNN
 
-📂 cancer-detection-knn
-│
-├── 📄 app.py               # Flask web application
-├── 📄 model_training.py    # KNN model training & preprocessing
-├── 📄 wbcd.csv             # Original dataset
-├── 📄 knn.pkl              # Saved best KNN model
-├── 📄 processed1           # Saved preprocessing pipeline 1
-├── 📄 processed2           # Saved preprocessing pipeline 2
-├── 📄 requirements.txt     # Required Python dependencies
-├── 📄 README.md            # Project documentation
-│
-└── 📂 templates/
-    ├── 📄 index.html       # Upload form UI
-    └── 📄 results.html     # Display results
-
-# 📦 Project Structure: Cancer Detection KNN
-
 - cancer-detection-knn/
   - app.py  
     📄 Flask web app for handling requests and predictions
