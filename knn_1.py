@@ -70,7 +70,7 @@ wbcd = pd.read_csv(r"C:\Users\Swapnil Mishra\Desktop\DS\KNN\KNN flask\wbcd.csv")
 
 conn_string = ("postgresql+psycopg2://{user}:{pw}@localhost/{db}"
                        .format(user = "postgres", # user
-                               pw = "swapnil1989", # password
+                               pw = "swap", # password
                                db = "wbcd_db")) # database
 
 db = create_engine(conn_string)
