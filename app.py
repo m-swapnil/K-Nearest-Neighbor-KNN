@@ -11,7 +11,7 @@ processed2 = joblib.load('processed2')
 from sqlalchemy import create_engine
 engine = ("postgresql+psycopg2://{user}:{pw}@localhost/{db}"
                        .format(user = "postgres", # user
-                               pw = "swapnil1989", # password
+                               pw = "swap", # password
                                db = "wbcd_db")) # database
 
 
