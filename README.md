@@ -92,6 +92,33 @@ It includes:
     ├── 📄 index.html       # Upload form UI
     └── 📄 results.html     # Display results
 
+# 📦 Project Structure: Cancer Detection KNN
+
+- cancer-detection-knn/
+  - app.py  
+    📄 Flask web app for handling requests and predictions
+  - model_training.py  
+    📄 Script for preprocessing and training the KNN model
+  - wbcd.csv  
+    📊 Dataset file (Wisconsin Breast Cancer Data)
+  - knn.pkl  
+    🧠 Trained KNN model serialized with pickle
+  - processed1  
+    ⚙️ Preprocessing pipeline (step 1 – e.g., imputer, scaler)
+  - processed2  
+    ⚙️ Preprocessing pipeline (step 2 – e.g., feature selection)
+  - requirements.txt  
+    📦 List of dependencies required to run the project
+  - README.md  
+    📘 Project documentation (this file)
+  - templates/  
+    📁 Folder containing frontend HTML templates
+    - index.html  
+      📝 Web form to upload and input feature values
+    - results.html  
+      📊 Displays prediction results to the user
+
+
 
 ---
 
